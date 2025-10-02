@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    restart: always
+# Examen practico - Automatización en Infraestructura Digital II - Froylan Alonso Pérez Alanis - José Manuel Pérez Gutiérrez
